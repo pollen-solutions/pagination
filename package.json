@@ -1,0 +1,16 @@
+{
+  "name": "@pollen-solutions/pagination",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordy Manner",
+  "license": "ISC",
+  "devDependencies": {
+    "@pollen-solutions/partial": "file:../partial/",
+    "@pollen-solutions/support": "file:../support/"
+  },
+  "dependencies": {
+  }
+}

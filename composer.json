@@ -1,0 +1,49 @@
+{
+  "name": "pollen-solutions/pagination",
+  "description": "Pollen Solutions - Pagination Component - Layer and utilities to paginate items in web applications",
+  "homepage": "https://www.presstify.com/pollen-solutions/pagination/",
+  "keywords": [
+    "pollen-solutions",
+    "component",
+    "wordpress adapter",
+    "paginator"
+  ],
+  "time": "2021-08-11",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy@presstify.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "pollen-solutions/http": "^1.0",
+    "pollen-solutions/partial": "^1.0",
+    "pollen-solutions/support": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\Pagination\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\Pagination\\Test\\": "tests"
+    }
+  },
+  "suggest": {
+    "pollen-solutions/container" : "Pollen Solutions - Container Component - PSR-11 ready Dependencies Injection Container."
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
